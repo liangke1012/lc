@@ -6,6 +6,7 @@
 using namespace std;
 
 int lengthOfLongestSubstring(string s);
+
 int main(){
     //unordered_set用法
     unordered_set<char> str1 = {'a','b'};
