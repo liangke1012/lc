@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = "/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/liangke/CLionProjects/lc/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -168,6 +168,32 @@ lc03/fast:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc03.dir/build.make leetcode1/CMakeFiles/lc03.dir/build
 .PHONY : lc03/fast
 
+#=============================================================================
+# Target rules for targets named lc04
+
+# Build rule for target.
+lc04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc04
+.PHONY : lc04
+
+# fast build rule for target.
+lc04/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc04.dir/build.make leetcode1/CMakeFiles/lc04.dir/build
+.PHONY : lc04/fast
+
+#=============================================================================
+# Target rules for targets named lc05
+
+# Build rule for target.
+lc05: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc05
+.PHONY : lc05
+
+# fast build rule for target.
+lc05/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc05.dir/build.make leetcode1/CMakeFiles/lc05.dir/build
+.PHONY : lc05/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -204,6 +230,8 @@ help:
 	@echo "... lc01"
 	@echo "... lc02"
 	@echo "... lc03"
+	@echo "... lc04"
+	@echo "... lc05"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

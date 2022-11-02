@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = "/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/liangke/CLionProjects/lc/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -158,6 +158,34 @@ lc03/fast:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc03.dir/build.make leetcode1/CMakeFiles/lc03.dir/build
 .PHONY : lc03/fast
 
+# Convenience name for target.
+leetcode1/CMakeFiles/lc04.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc04.dir/rule
+.PHONY : leetcode1/CMakeFiles/lc04.dir/rule
+
+# Convenience name for target.
+lc04: leetcode1/CMakeFiles/lc04.dir/rule
+.PHONY : lc04
+
+# fast build rule for target.
+lc04/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc04.dir/build.make leetcode1/CMakeFiles/lc04.dir/build
+.PHONY : lc04/fast
+
+# Convenience name for target.
+leetcode1/CMakeFiles/lc05.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc05.dir/rule
+.PHONY : leetcode1/CMakeFiles/lc05.dir/rule
+
+# Convenience name for target.
+lc05: leetcode1/CMakeFiles/lc05.dir/rule
+.PHONY : lc05
+
+# fast build rule for target.
+lc05/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc05.dir/build.make leetcode1/CMakeFiles/lc05.dir/build
+.PHONY : lc05/fast
+
 lc01.o: lc01.cpp.o
 .PHONY : lc01.o
 
@@ -230,6 +258,54 @@ lc03.cpp.s:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc03.dir/build.make leetcode1/CMakeFiles/lc03.dir/lc03.cpp.s
 .PHONY : lc03.cpp.s
 
+lc04.o: lc04.cpp.o
+.PHONY : lc04.o
+
+# target to build an object file
+lc04.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc04.dir/build.make leetcode1/CMakeFiles/lc04.dir/lc04.cpp.o
+.PHONY : lc04.cpp.o
+
+lc04.i: lc04.cpp.i
+.PHONY : lc04.i
+
+# target to preprocess a source file
+lc04.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc04.dir/build.make leetcode1/CMakeFiles/lc04.dir/lc04.cpp.i
+.PHONY : lc04.cpp.i
+
+lc04.s: lc04.cpp.s
+.PHONY : lc04.s
+
+# target to generate assembly for a file
+lc04.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc04.dir/build.make leetcode1/CMakeFiles/lc04.dir/lc04.cpp.s
+.PHONY : lc04.cpp.s
+
+lc05.o: lc05.cpp.o
+.PHONY : lc05.o
+
+# target to build an object file
+lc05.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc05.dir/build.make leetcode1/CMakeFiles/lc05.dir/lc05.cpp.o
+.PHONY : lc05.cpp.o
+
+lc05.i: lc05.cpp.i
+.PHONY : lc05.i
+
+# target to preprocess a source file
+lc05.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc05.dir/build.make leetcode1/CMakeFiles/lc05.dir/lc05.cpp.i
+.PHONY : lc05.cpp.i
+
+lc05.s: lc05.cpp.s
+.PHONY : lc05.s
+
+# target to generate assembly for a file
+lc05.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc05.dir/build.make leetcode1/CMakeFiles/lc05.dir/lc05.cpp.s
+.PHONY : lc05.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -241,6 +317,8 @@ help:
 	@echo "... lc01"
 	@echo "... lc02"
 	@echo "... lc03"
+	@echo "... lc04"
+	@echo "... lc05"
 	@echo "... lc01.o"
 	@echo "... lc01.i"
 	@echo "... lc01.s"
@@ -250,6 +328,12 @@ help:
 	@echo "... lc03.o"
 	@echo "... lc03.i"
 	@echo "... lc03.s"
+	@echo "... lc04.o"
+	@echo "... lc04.i"
+	@echo "... lc04.s"
+	@echo "... lc05.o"
+	@echo "... lc05.i"
+	@echo "... lc05.s"
 .PHONY : help
 
 

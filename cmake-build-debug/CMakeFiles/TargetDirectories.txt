@@ -4,5 +4,7 @@
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc01.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc02.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc03.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc04.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc05.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/edit_cache.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/rebuild_cache.dir
