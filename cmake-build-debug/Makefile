@@ -194,6 +194,45 @@ lc05/fast:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc05.dir/build.make leetcode1/CMakeFiles/lc05.dir/build
 .PHONY : lc05/fast
 
+#=============================================================================
+# Target rules for targets named lc06
+
+# Build rule for target.
+lc06: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc06
+.PHONY : lc06
+
+# fast build rule for target.
+lc06/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc06.dir/build.make leetcode1/CMakeFiles/lc06.dir/build
+.PHONY : lc06/fast
+
+#=============================================================================
+# Target rules for targets named lc07
+
+# Build rule for target.
+lc07: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc07
+.PHONY : lc07
+
+# fast build rule for target.
+lc07/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc07.dir/build.make leetcode1/CMakeFiles/lc07.dir/build
+.PHONY : lc07/fast
+
+#=============================================================================
+# Target rules for targets named lc08
+
+# Build rule for target.
+lc08: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc08
+.PHONY : lc08
+
+# fast build rule for target.
+lc08/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc08.dir/build.make leetcode1/CMakeFiles/lc08.dir/build
+.PHONY : lc08/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -232,6 +271,9 @@ help:
 	@echo "... lc03"
 	@echo "... lc04"
 	@echo "... lc05"
+	@echo "... lc06"
+	@echo "... lc07"
+	@echo "... lc08"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

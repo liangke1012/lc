@@ -58,4 +58,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "leetcode1/CMakeFiles/lc03.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc04.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc05.dir/DependInfo.cmake"
+  "leetcode1/CMakeFiles/lc06.dir/DependInfo.cmake"
+  "leetcode1/CMakeFiles/lc07.dir/DependInfo.cmake"
+  "leetcode1/CMakeFiles/lc08.dir/DependInfo.cmake"
   )

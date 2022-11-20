@@ -186,6 +186,48 @@ lc05/fast:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc05.dir/build.make leetcode1/CMakeFiles/lc05.dir/build
 .PHONY : lc05/fast
 
+# Convenience name for target.
+leetcode1/CMakeFiles/lc06.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc06.dir/rule
+.PHONY : leetcode1/CMakeFiles/lc06.dir/rule
+
+# Convenience name for target.
+lc06: leetcode1/CMakeFiles/lc06.dir/rule
+.PHONY : lc06
+
+# fast build rule for target.
+lc06/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc06.dir/build.make leetcode1/CMakeFiles/lc06.dir/build
+.PHONY : lc06/fast
+
+# Convenience name for target.
+leetcode1/CMakeFiles/lc07.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc07.dir/rule
+.PHONY : leetcode1/CMakeFiles/lc07.dir/rule
+
+# Convenience name for target.
+lc07: leetcode1/CMakeFiles/lc07.dir/rule
+.PHONY : lc07
+
+# fast build rule for target.
+lc07/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc07.dir/build.make leetcode1/CMakeFiles/lc07.dir/build
+.PHONY : lc07/fast
+
+# Convenience name for target.
+leetcode1/CMakeFiles/lc08.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc08.dir/rule
+.PHONY : leetcode1/CMakeFiles/lc08.dir/rule
+
+# Convenience name for target.
+lc08: leetcode1/CMakeFiles/lc08.dir/rule
+.PHONY : lc08
+
+# fast build rule for target.
+lc08/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc08.dir/build.make leetcode1/CMakeFiles/lc08.dir/build
+.PHONY : lc08/fast
+
 lc01.o: lc01.cpp.o
 .PHONY : lc01.o
 
@@ -306,6 +348,78 @@ lc05.cpp.s:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc05.dir/build.make leetcode1/CMakeFiles/lc05.dir/lc05.cpp.s
 .PHONY : lc05.cpp.s
 
+lc06.o: lc06.cpp.o
+.PHONY : lc06.o
+
+# target to build an object file
+lc06.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc06.dir/build.make leetcode1/CMakeFiles/lc06.dir/lc06.cpp.o
+.PHONY : lc06.cpp.o
+
+lc06.i: lc06.cpp.i
+.PHONY : lc06.i
+
+# target to preprocess a source file
+lc06.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc06.dir/build.make leetcode1/CMakeFiles/lc06.dir/lc06.cpp.i
+.PHONY : lc06.cpp.i
+
+lc06.s: lc06.cpp.s
+.PHONY : lc06.s
+
+# target to generate assembly for a file
+lc06.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc06.dir/build.make leetcode1/CMakeFiles/lc06.dir/lc06.cpp.s
+.PHONY : lc06.cpp.s
+
+lc07.o: lc07.cpp.o
+.PHONY : lc07.o
+
+# target to build an object file
+lc07.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc07.dir/build.make leetcode1/CMakeFiles/lc07.dir/lc07.cpp.o
+.PHONY : lc07.cpp.o
+
+lc07.i: lc07.cpp.i
+.PHONY : lc07.i
+
+# target to preprocess a source file
+lc07.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc07.dir/build.make leetcode1/CMakeFiles/lc07.dir/lc07.cpp.i
+.PHONY : lc07.cpp.i
+
+lc07.s: lc07.cpp.s
+.PHONY : lc07.s
+
+# target to generate assembly for a file
+lc07.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc07.dir/build.make leetcode1/CMakeFiles/lc07.dir/lc07.cpp.s
+.PHONY : lc07.cpp.s
+
+lc08.o: lc08.cpp.o
+.PHONY : lc08.o
+
+# target to build an object file
+lc08.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc08.dir/build.make leetcode1/CMakeFiles/lc08.dir/lc08.cpp.o
+.PHONY : lc08.cpp.o
+
+lc08.i: lc08.cpp.i
+.PHONY : lc08.i
+
+# target to preprocess a source file
+lc08.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc08.dir/build.make leetcode1/CMakeFiles/lc08.dir/lc08.cpp.i
+.PHONY : lc08.cpp.i
+
+lc08.s: lc08.cpp.s
+.PHONY : lc08.s
+
+# target to generate assembly for a file
+lc08.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc08.dir/build.make leetcode1/CMakeFiles/lc08.dir/lc08.cpp.s
+.PHONY : lc08.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -319,6 +433,9 @@ help:
 	@echo "... lc03"
 	@echo "... lc04"
 	@echo "... lc05"
+	@echo "... lc06"
+	@echo "... lc07"
+	@echo "... lc08"
 	@echo "... lc01.o"
 	@echo "... lc01.i"
 	@echo "... lc01.s"
@@ -334,6 +451,15 @@ help:
 	@echo "... lc05.o"
 	@echo "... lc05.i"
 	@echo "... lc05.s"
+	@echo "... lc06.o"
+	@echo "... lc06.i"
+	@echo "... lc06.s"
+	@echo "... lc07.o"
+	@echo "... lc07.i"
+	@echo "... lc07.s"
+	@echo "... lc08.o"
+	@echo "... lc08.i"
+	@echo "... lc08.s"
 .PHONY : help
 
 
