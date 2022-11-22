@@ -233,6 +233,32 @@ lc08/fast:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc08.dir/build.make leetcode1/CMakeFiles/lc08.dir/build
 .PHONY : lc08/fast
 
+#=============================================================================
+# Target rules for targets named lc09
+
+# Build rule for target.
+lc09: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc09
+.PHONY : lc09
+
+# fast build rule for target.
+lc09/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc09.dir/build.make leetcode1/CMakeFiles/lc09.dir/build
+.PHONY : lc09/fast
+
+#=============================================================================
+# Target rules for targets named lc11
+
+# Build rule for target.
+lc11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc11
+.PHONY : lc11
+
+# fast build rule for target.
+lc11/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc11.dir/build.make leetcode1/CMakeFiles/lc11.dir/build
+.PHONY : lc11/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -274,6 +300,8 @@ help:
 	@echo "... lc06"
 	@echo "... lc07"
 	@echo "... lc08"
+	@echo "... lc09"
+	@echo "... lc11"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

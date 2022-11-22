@@ -9,5 +9,7 @@
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc06.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc07.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc08.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc09.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc11.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/edit_cache.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/rebuild_cache.dir
