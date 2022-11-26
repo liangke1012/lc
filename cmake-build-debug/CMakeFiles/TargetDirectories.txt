@@ -11,5 +11,16 @@
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc08.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc09.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc11.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc12.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc13.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc14.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc15.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc18.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lckmp28.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc151.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc242.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc349.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc454.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/lc541.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/edit_cache.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/rebuild_cache.dir

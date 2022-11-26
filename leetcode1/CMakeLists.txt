@@ -1,5 +1,7 @@
 include_directories(.)
 
+
+
 add_executable(lc01 lc01.cpp)
 add_executable(lc02 lc02.cpp)
 add_executable(lc03 lc03.cpp)
@@ -10,3 +12,14 @@ add_executable(lc07 lc07.cpp)
 add_executable(lc08 lc08.cpp)
 add_executable(lc09 lc09.cpp)
 add_executable(lc11 lc11.cpp)
+add_executable(lc12 lc12.cpp)
+add_executable(lc13 lc13.cpp)
+add_executable(lc14 lc14.cpp)
+add_executable(lc15 lc15.cpp)
+add_executable(lc18 lc18.cpp)
+add_executable(lckmp28 lckmp28.cpp)
+add_executable(lc151 lc151.cpp)
+add_executable(lc242 lc242.cpp)
+add_executable(lc349 lc349.cpp)
+add_executable(lc454 lc454.cpp)
+add_executable(lc541 lc541.cpp)

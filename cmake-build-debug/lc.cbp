@@ -519,6 +519,490 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lc12">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc12/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc12/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc13">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc13"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc13/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc13/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc14">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc14"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc14/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc14/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc15">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc15"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc15/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc15/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc18">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc18"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc18/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc18/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lckmp28">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lckmp28" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lckmp28"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lckmp28/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lckmp28" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lckmp28/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc151">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc151" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc151"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc151/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc151" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc151/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc242">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc242" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc242"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc242/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc242" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc242/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc349">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc349" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc349"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc349/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc349" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc349/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc454">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc454" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc454"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc454/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc454" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc454/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc541">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc541" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc541"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc541/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/lc541" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/leetcode1/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 lc541/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc01.cpp">
 			<Option target="lc01"/>
@@ -549,6 +1033,39 @@
 		</Unit>
 		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc11.cpp">
 			<Option target="lc11"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc12.cpp">
+			<Option target="lc12"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc13.cpp">
+			<Option target="lc13"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc14.cpp">
+			<Option target="lc14"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc15.cpp">
+			<Option target="lc15"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc151.cpp">
+			<Option target="lc151"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc18.cpp">
+			<Option target="lc18"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc242.cpp">
+			<Option target="lc242"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc349.cpp">
+			<Option target="lc349"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc454.cpp">
+			<Option target="lc454"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc541.cpp">
+			<Option target="lc541"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lckmp28.cpp">
+			<Option target="lckmp28"/>
 		</Unit>
 		<Unit filename="/Users/liangke/CLionProjects/lc/main.cpp">
 			<Option target="lc"/>

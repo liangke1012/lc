@@ -259,6 +259,149 @@ lc11/fast:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc11.dir/build.make leetcode1/CMakeFiles/lc11.dir/build
 .PHONY : lc11/fast
 
+#=============================================================================
+# Target rules for targets named lc12
+
+# Build rule for target.
+lc12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc12
+.PHONY : lc12
+
+# fast build rule for target.
+lc12/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc12.dir/build.make leetcode1/CMakeFiles/lc12.dir/build
+.PHONY : lc12/fast
+
+#=============================================================================
+# Target rules for targets named lc13
+
+# Build rule for target.
+lc13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc13
+.PHONY : lc13
+
+# fast build rule for target.
+lc13/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc13.dir/build.make leetcode1/CMakeFiles/lc13.dir/build
+.PHONY : lc13/fast
+
+#=============================================================================
+# Target rules for targets named lc14
+
+# Build rule for target.
+lc14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc14
+.PHONY : lc14
+
+# fast build rule for target.
+lc14/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc14.dir/build.make leetcode1/CMakeFiles/lc14.dir/build
+.PHONY : lc14/fast
+
+#=============================================================================
+# Target rules for targets named lc15
+
+# Build rule for target.
+lc15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc15
+.PHONY : lc15
+
+# fast build rule for target.
+lc15/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc15.dir/build.make leetcode1/CMakeFiles/lc15.dir/build
+.PHONY : lc15/fast
+
+#=============================================================================
+# Target rules for targets named lc18
+
+# Build rule for target.
+lc18: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc18
+.PHONY : lc18
+
+# fast build rule for target.
+lc18/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc18.dir/build.make leetcode1/CMakeFiles/lc18.dir/build
+.PHONY : lc18/fast
+
+#=============================================================================
+# Target rules for targets named lckmp28
+
+# Build rule for target.
+lckmp28: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lckmp28
+.PHONY : lckmp28
+
+# fast build rule for target.
+lckmp28/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lckmp28.dir/build.make leetcode1/CMakeFiles/lckmp28.dir/build
+.PHONY : lckmp28/fast
+
+#=============================================================================
+# Target rules for targets named lc151
+
+# Build rule for target.
+lc151: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc151
+.PHONY : lc151
+
+# fast build rule for target.
+lc151/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc151.dir/build.make leetcode1/CMakeFiles/lc151.dir/build
+.PHONY : lc151/fast
+
+#=============================================================================
+# Target rules for targets named lc242
+
+# Build rule for target.
+lc242: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc242
+.PHONY : lc242
+
+# fast build rule for target.
+lc242/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc242.dir/build.make leetcode1/CMakeFiles/lc242.dir/build
+.PHONY : lc242/fast
+
+#=============================================================================
+# Target rules for targets named lc349
+
+# Build rule for target.
+lc349: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc349
+.PHONY : lc349
+
+# fast build rule for target.
+lc349/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc349.dir/build.make leetcode1/CMakeFiles/lc349.dir/build
+.PHONY : lc349/fast
+
+#=============================================================================
+# Target rules for targets named lc454
+
+# Build rule for target.
+lc454: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc454
+.PHONY : lc454
+
+# fast build rule for target.
+lc454/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc454.dir/build.make leetcode1/CMakeFiles/lc454.dir/build
+.PHONY : lc454/fast
+
+#=============================================================================
+# Target rules for targets named lc541
+
+# Build rule for target.
+lc541: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc541
+.PHONY : lc541
+
+# fast build rule for target.
+lc541/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc541.dir/build.make leetcode1/CMakeFiles/lc541.dir/build
+.PHONY : lc541/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -302,6 +445,17 @@ help:
 	@echo "... lc08"
 	@echo "... lc09"
 	@echo "... lc11"
+	@echo "... lc12"
+	@echo "... lc13"
+	@echo "... lc14"
+	@echo "... lc15"
+	@echo "... lc151"
+	@echo "... lc18"
+	@echo "... lc242"
+	@echo "... lc349"
+	@echo "... lc454"
+	@echo "... lc541"
+	@echo "... lckmp28"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
