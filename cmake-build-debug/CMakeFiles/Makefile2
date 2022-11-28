@@ -65,15 +65,18 @@ CMAKE_BINARY_DIR = /Users/liangke/CLionProjects/lc/cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/lc.dir/all
 all: leetcode1/all
+all: tree/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: leetcode1/preinstall
+preinstall: tree/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/lc.dir/clean
 clean: leetcode1/clean
+clean: tree/clean
 .PHONY : clean
 
 #=============================================================================
@@ -95,9 +98,14 @@ leetcode1/all: leetcode1/CMakeFiles/lc13.dir/all
 leetcode1/all: leetcode1/CMakeFiles/lc14.dir/all
 leetcode1/all: leetcode1/CMakeFiles/lc15.dir/all
 leetcode1/all: leetcode1/CMakeFiles/lc18.dir/all
+leetcode1/all: leetcode1/CMakeFiles/lc20.dir/all
+leetcode1/all: leetcode1/CMakeFiles/lc42.dir/all
 leetcode1/all: leetcode1/CMakeFiles/lckmp28.dir/all
+leetcode1/all: leetcode1/CMakeFiles/lck232.dir/all
+leetcode1/all: leetcode1/CMakeFiles/lck225.dir/all
 leetcode1/all: leetcode1/CMakeFiles/lc151.dir/all
 leetcode1/all: leetcode1/CMakeFiles/lc242.dir/all
+leetcode1/all: leetcode1/CMakeFiles/lc347.dir/all
 leetcode1/all: leetcode1/CMakeFiles/lc349.dir/all
 leetcode1/all: leetcode1/CMakeFiles/lc454.dir/all
 leetcode1/all: leetcode1/CMakeFiles/lc541.dir/all
@@ -123,13 +131,33 @@ leetcode1/clean: leetcode1/CMakeFiles/lc13.dir/clean
 leetcode1/clean: leetcode1/CMakeFiles/lc14.dir/clean
 leetcode1/clean: leetcode1/CMakeFiles/lc15.dir/clean
 leetcode1/clean: leetcode1/CMakeFiles/lc18.dir/clean
+leetcode1/clean: leetcode1/CMakeFiles/lc20.dir/clean
+leetcode1/clean: leetcode1/CMakeFiles/lc42.dir/clean
 leetcode1/clean: leetcode1/CMakeFiles/lckmp28.dir/clean
+leetcode1/clean: leetcode1/CMakeFiles/lck232.dir/clean
+leetcode1/clean: leetcode1/CMakeFiles/lck225.dir/clean
 leetcode1/clean: leetcode1/CMakeFiles/lc151.dir/clean
 leetcode1/clean: leetcode1/CMakeFiles/lc242.dir/clean
+leetcode1/clean: leetcode1/CMakeFiles/lc347.dir/clean
 leetcode1/clean: leetcode1/CMakeFiles/lc349.dir/clean
 leetcode1/clean: leetcode1/CMakeFiles/lc454.dir/clean
 leetcode1/clean: leetcode1/CMakeFiles/lc541.dir/clean
 .PHONY : leetcode1/clean
+
+#=============================================================================
+# Directory level rules for directory tree
+
+# Recursive "all" directory target.
+tree/all: tree/CMakeFiles/tree01.dir/all
+.PHONY : tree/all
+
+# Recursive "preinstall" directory target.
+tree/preinstall:
+.PHONY : tree/preinstall
+
+# Recursive "clean" directory target.
+tree/clean: tree/CMakeFiles/tree01.dir/clean
+.PHONY : tree/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/lc.dir
@@ -548,13 +576,65 @@ leetcode1/CMakeFiles/lc18.dir/clean:
 .PHONY : leetcode1/CMakeFiles/lc18.dir/clean
 
 #=============================================================================
+# Target rules for target leetcode1/CMakeFiles/lc20.dir
+
+# All Build rule for target.
+leetcode1/CMakeFiles/lc20.dir/all:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc20.dir/build.make leetcode1/CMakeFiles/lc20.dir/depend
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc20.dir/build.make leetcode1/CMakeFiles/lc20.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target lc20"
+.PHONY : leetcode1/CMakeFiles/lc20.dir/all
+
+# Build rule for subdir invocation for target.
+leetcode1/CMakeFiles/lc20.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc20.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 0
+.PHONY : leetcode1/CMakeFiles/lc20.dir/rule
+
+# Convenience name for target.
+lc20: leetcode1/CMakeFiles/lc20.dir/rule
+.PHONY : lc20
+
+# clean rule for target.
+leetcode1/CMakeFiles/lc20.dir/clean:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc20.dir/build.make leetcode1/CMakeFiles/lc20.dir/clean
+.PHONY : leetcode1/CMakeFiles/lc20.dir/clean
+
+#=============================================================================
+# Target rules for target leetcode1/CMakeFiles/lc42.dir
+
+# All Build rule for target.
+leetcode1/CMakeFiles/lc42.dir/all:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc42.dir/build.make leetcode1/CMakeFiles/lc42.dir/depend
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc42.dir/build.make leetcode1/CMakeFiles/lc42.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target lc42"
+.PHONY : leetcode1/CMakeFiles/lc42.dir/all
+
+# Build rule for subdir invocation for target.
+leetcode1/CMakeFiles/lc42.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc42.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 0
+.PHONY : leetcode1/CMakeFiles/lc42.dir/rule
+
+# Convenience name for target.
+lc42: leetcode1/CMakeFiles/lc42.dir/rule
+.PHONY : lc42
+
+# clean rule for target.
+leetcode1/CMakeFiles/lc42.dir/clean:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc42.dir/build.make leetcode1/CMakeFiles/lc42.dir/clean
+.PHONY : leetcode1/CMakeFiles/lc42.dir/clean
+
+#=============================================================================
 # Target rules for target leetcode1/CMakeFiles/lckmp28.dir
 
 # All Build rule for target.
 leetcode1/CMakeFiles/lckmp28.dir/all:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lckmp28.dir/build.make leetcode1/CMakeFiles/lckmp28.dir/depend
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lckmp28.dir/build.make leetcode1/CMakeFiles/lckmp28.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target lckmp28"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target lckmp28"
 .PHONY : leetcode1/CMakeFiles/lckmp28.dir/all
 
 # Build rule for subdir invocation for target.
@@ -572,6 +652,58 @@ lckmp28: leetcode1/CMakeFiles/lckmp28.dir/rule
 leetcode1/CMakeFiles/lckmp28.dir/clean:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lckmp28.dir/build.make leetcode1/CMakeFiles/lckmp28.dir/clean
 .PHONY : leetcode1/CMakeFiles/lckmp28.dir/clean
+
+#=============================================================================
+# Target rules for target leetcode1/CMakeFiles/lck232.dir
+
+# All Build rule for target.
+leetcode1/CMakeFiles/lck232.dir/all:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck232.dir/build.make leetcode1/CMakeFiles/lck232.dir/depend
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck232.dir/build.make leetcode1/CMakeFiles/lck232.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target lck232"
+.PHONY : leetcode1/CMakeFiles/lck232.dir/all
+
+# Build rule for subdir invocation for target.
+leetcode1/CMakeFiles/lck232.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lck232.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 0
+.PHONY : leetcode1/CMakeFiles/lck232.dir/rule
+
+# Convenience name for target.
+lck232: leetcode1/CMakeFiles/lck232.dir/rule
+.PHONY : lck232
+
+# clean rule for target.
+leetcode1/CMakeFiles/lck232.dir/clean:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck232.dir/build.make leetcode1/CMakeFiles/lck232.dir/clean
+.PHONY : leetcode1/CMakeFiles/lck232.dir/clean
+
+#=============================================================================
+# Target rules for target leetcode1/CMakeFiles/lck225.dir
+
+# All Build rule for target.
+leetcode1/CMakeFiles/lck225.dir/all:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck225.dir/build.make leetcode1/CMakeFiles/lck225.dir/depend
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck225.dir/build.make leetcode1/CMakeFiles/lck225.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target lck225"
+.PHONY : leetcode1/CMakeFiles/lck225.dir/all
+
+# Build rule for subdir invocation for target.
+leetcode1/CMakeFiles/lck225.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lck225.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 0
+.PHONY : leetcode1/CMakeFiles/lck225.dir/rule
+
+# Convenience name for target.
+lck225: leetcode1/CMakeFiles/lck225.dir/rule
+.PHONY : lck225
+
+# clean rule for target.
+leetcode1/CMakeFiles/lck225.dir/clean:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck225.dir/build.make leetcode1/CMakeFiles/lck225.dir/clean
+.PHONY : leetcode1/CMakeFiles/lck225.dir/clean
 
 #=============================================================================
 # Target rules for target leetcode1/CMakeFiles/lc151.dir
@@ -606,7 +738,7 @@ leetcode1/CMakeFiles/lc151.dir/clean:
 leetcode1/CMakeFiles/lc242.dir/all:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc242.dir/build.make leetcode1/CMakeFiles/lc242.dir/depend
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc242.dir/build.make leetcode1/CMakeFiles/lc242.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target lc242"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target lc242"
 .PHONY : leetcode1/CMakeFiles/lc242.dir/all
 
 # Build rule for subdir invocation for target.
@@ -626,13 +758,39 @@ leetcode1/CMakeFiles/lc242.dir/clean:
 .PHONY : leetcode1/CMakeFiles/lc242.dir/clean
 
 #=============================================================================
+# Target rules for target leetcode1/CMakeFiles/lc347.dir
+
+# All Build rule for target.
+leetcode1/CMakeFiles/lc347.dir/all:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc347.dir/build.make leetcode1/CMakeFiles/lc347.dir/depend
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc347.dir/build.make leetcode1/CMakeFiles/lc347.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target lc347"
+.PHONY : leetcode1/CMakeFiles/lc347.dir/all
+
+# Build rule for subdir invocation for target.
+leetcode1/CMakeFiles/lc347.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc347.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 0
+.PHONY : leetcode1/CMakeFiles/lc347.dir/rule
+
+# Convenience name for target.
+lc347: leetcode1/CMakeFiles/lc347.dir/rule
+.PHONY : lc347
+
+# clean rule for target.
+leetcode1/CMakeFiles/lc347.dir/clean:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc347.dir/build.make leetcode1/CMakeFiles/lc347.dir/clean
+.PHONY : leetcode1/CMakeFiles/lc347.dir/clean
+
+#=============================================================================
 # Target rules for target leetcode1/CMakeFiles/lc349.dir
 
 # All Build rule for target.
 leetcode1/CMakeFiles/lc349.dir/all:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc349.dir/build.make leetcode1/CMakeFiles/lc349.dir/depend
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc349.dir/build.make leetcode1/CMakeFiles/lc349.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target lc349"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target lc349"
 .PHONY : leetcode1/CMakeFiles/lc349.dir/all
 
 # Build rule for subdir invocation for target.
@@ -658,7 +816,7 @@ leetcode1/CMakeFiles/lc349.dir/clean:
 leetcode1/CMakeFiles/lc454.dir/all:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc454.dir/build.make leetcode1/CMakeFiles/lc454.dir/depend
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc454.dir/build.make leetcode1/CMakeFiles/lc454.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target lc454"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target lc454"
 .PHONY : leetcode1/CMakeFiles/lc454.dir/all
 
 # Build rule for subdir invocation for target.
@@ -684,7 +842,7 @@ leetcode1/CMakeFiles/lc454.dir/clean:
 leetcode1/CMakeFiles/lc541.dir/all:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc541.dir/build.make leetcode1/CMakeFiles/lc541.dir/depend
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc541.dir/build.make leetcode1/CMakeFiles/lc541.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target lc541"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target lc541"
 .PHONY : leetcode1/CMakeFiles/lc541.dir/all
 
 # Build rule for subdir invocation for target.
@@ -702,6 +860,32 @@ lc541: leetcode1/CMakeFiles/lc541.dir/rule
 leetcode1/CMakeFiles/lc541.dir/clean:
 	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc541.dir/build.make leetcode1/CMakeFiles/lc541.dir/clean
 .PHONY : leetcode1/CMakeFiles/lc541.dir/clean
+
+#=============================================================================
+# Target rules for target tree/CMakeFiles/tree01.dir
+
+# All Build rule for target.
+tree/CMakeFiles/tree01.dir/all:
+	$(MAKE) $(MAKESILENT) -f tree/CMakeFiles/tree01.dir/build.make tree/CMakeFiles/tree01.dir/depend
+	$(MAKE) $(MAKESILENT) -f tree/CMakeFiles/tree01.dir/build.make tree/CMakeFiles/tree01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target tree01"
+.PHONY : tree/CMakeFiles/tree01.dir/all
+
+# Build rule for subdir invocation for target.
+tree/CMakeFiles/tree01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tree/CMakeFiles/tree01.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liangke/CLionProjects/lc/cmake-build-debug/CMakeFiles 0
+.PHONY : tree/CMakeFiles/tree01.dir/rule
+
+# Convenience name for target.
+tree01: tree/CMakeFiles/tree01.dir/rule
+.PHONY : tree01
+
+# clean rule for target.
+tree/CMakeFiles/tree01.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tree/CMakeFiles/tree01.dir/build.make tree/CMakeFiles/tree01.dir/clean
+.PHONY : tree/CMakeFiles/tree01.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

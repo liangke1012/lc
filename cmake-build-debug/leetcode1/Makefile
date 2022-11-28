@@ -327,6 +327,34 @@ lc18/fast:
 .PHONY : lc18/fast
 
 # Convenience name for target.
+leetcode1/CMakeFiles/lc20.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc20.dir/rule
+.PHONY : leetcode1/CMakeFiles/lc20.dir/rule
+
+# Convenience name for target.
+lc20: leetcode1/CMakeFiles/lc20.dir/rule
+.PHONY : lc20
+
+# fast build rule for target.
+lc20/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc20.dir/build.make leetcode1/CMakeFiles/lc20.dir/build
+.PHONY : lc20/fast
+
+# Convenience name for target.
+leetcode1/CMakeFiles/lc42.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc42.dir/rule
+.PHONY : leetcode1/CMakeFiles/lc42.dir/rule
+
+# Convenience name for target.
+lc42: leetcode1/CMakeFiles/lc42.dir/rule
+.PHONY : lc42
+
+# fast build rule for target.
+lc42/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc42.dir/build.make leetcode1/CMakeFiles/lc42.dir/build
+.PHONY : lc42/fast
+
+# Convenience name for target.
 leetcode1/CMakeFiles/lckmp28.dir/rule:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lckmp28.dir/rule
 .PHONY : leetcode1/CMakeFiles/lckmp28.dir/rule
@@ -339,6 +367,34 @@ lckmp28: leetcode1/CMakeFiles/lckmp28.dir/rule
 lckmp28/fast:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lckmp28.dir/build.make leetcode1/CMakeFiles/lckmp28.dir/build
 .PHONY : lckmp28/fast
+
+# Convenience name for target.
+leetcode1/CMakeFiles/lck232.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lck232.dir/rule
+.PHONY : leetcode1/CMakeFiles/lck232.dir/rule
+
+# Convenience name for target.
+lck232: leetcode1/CMakeFiles/lck232.dir/rule
+.PHONY : lck232
+
+# fast build rule for target.
+lck232/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck232.dir/build.make leetcode1/CMakeFiles/lck232.dir/build
+.PHONY : lck232/fast
+
+# Convenience name for target.
+leetcode1/CMakeFiles/lck225.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lck225.dir/rule
+.PHONY : leetcode1/CMakeFiles/lck225.dir/rule
+
+# Convenience name for target.
+lck225: leetcode1/CMakeFiles/lck225.dir/rule
+.PHONY : lck225
+
+# fast build rule for target.
+lck225/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck225.dir/build.make leetcode1/CMakeFiles/lck225.dir/build
+.PHONY : lck225/fast
 
 # Convenience name for target.
 leetcode1/CMakeFiles/lc151.dir/rule:
@@ -367,6 +423,20 @@ lc242: leetcode1/CMakeFiles/lc242.dir/rule
 lc242/fast:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc242.dir/build.make leetcode1/CMakeFiles/lc242.dir/build
 .PHONY : lc242/fast
+
+# Convenience name for target.
+leetcode1/CMakeFiles/lc347.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lc347.dir/rule
+.PHONY : leetcode1/CMakeFiles/lc347.dir/rule
+
+# Convenience name for target.
+lc347: leetcode1/CMakeFiles/lc347.dir/rule
+.PHONY : lc347
+
+# fast build rule for target.
+lc347/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc347.dir/build.make leetcode1/CMakeFiles/lc347.dir/build
+.PHONY : lc347/fast
 
 # Convenience name for target.
 leetcode1/CMakeFiles/lc349.dir/rule:
@@ -794,6 +864,78 @@ lc18.cpp.s:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc18.dir/build.make leetcode1/CMakeFiles/lc18.dir/lc18.cpp.s
 .PHONY : lc18.cpp.s
 
+lc20.o: lc20.cpp.o
+.PHONY : lc20.o
+
+# target to build an object file
+lc20.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc20.dir/build.make leetcode1/CMakeFiles/lc20.dir/lc20.cpp.o
+.PHONY : lc20.cpp.o
+
+lc20.i: lc20.cpp.i
+.PHONY : lc20.i
+
+# target to preprocess a source file
+lc20.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc20.dir/build.make leetcode1/CMakeFiles/lc20.dir/lc20.cpp.i
+.PHONY : lc20.cpp.i
+
+lc20.s: lc20.cpp.s
+.PHONY : lc20.s
+
+# target to generate assembly for a file
+lc20.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc20.dir/build.make leetcode1/CMakeFiles/lc20.dir/lc20.cpp.s
+.PHONY : lc20.cpp.s
+
+lc225.o: lc225.cpp.o
+.PHONY : lc225.o
+
+# target to build an object file
+lc225.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck225.dir/build.make leetcode1/CMakeFiles/lck225.dir/lc225.cpp.o
+.PHONY : lc225.cpp.o
+
+lc225.i: lc225.cpp.i
+.PHONY : lc225.i
+
+# target to preprocess a source file
+lc225.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck225.dir/build.make leetcode1/CMakeFiles/lck225.dir/lc225.cpp.i
+.PHONY : lc225.cpp.i
+
+lc225.s: lc225.cpp.s
+.PHONY : lc225.s
+
+# target to generate assembly for a file
+lc225.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck225.dir/build.make leetcode1/CMakeFiles/lck225.dir/lc225.cpp.s
+.PHONY : lc225.cpp.s
+
+lc232.o: lc232.cpp.o
+.PHONY : lc232.o
+
+# target to build an object file
+lc232.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck232.dir/build.make leetcode1/CMakeFiles/lck232.dir/lc232.cpp.o
+.PHONY : lc232.cpp.o
+
+lc232.i: lc232.cpp.i
+.PHONY : lc232.i
+
+# target to preprocess a source file
+lc232.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck232.dir/build.make leetcode1/CMakeFiles/lck232.dir/lc232.cpp.i
+.PHONY : lc232.cpp.i
+
+lc232.s: lc232.cpp.s
+.PHONY : lc232.s
+
+# target to generate assembly for a file
+lc232.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lck232.dir/build.make leetcode1/CMakeFiles/lck232.dir/lc232.cpp.s
+.PHONY : lc232.cpp.s
+
 lc242.o: lc242.cpp.o
 .PHONY : lc242.o
 
@@ -818,6 +960,30 @@ lc242.cpp.s:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc242.dir/build.make leetcode1/CMakeFiles/lc242.dir/lc242.cpp.s
 .PHONY : lc242.cpp.s
 
+lc347.o: lc347.cpp.o
+.PHONY : lc347.o
+
+# target to build an object file
+lc347.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc347.dir/build.make leetcode1/CMakeFiles/lc347.dir/lc347.cpp.o
+.PHONY : lc347.cpp.o
+
+lc347.i: lc347.cpp.i
+.PHONY : lc347.i
+
+# target to preprocess a source file
+lc347.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc347.dir/build.make leetcode1/CMakeFiles/lc347.dir/lc347.cpp.i
+.PHONY : lc347.cpp.i
+
+lc347.s: lc347.cpp.s
+.PHONY : lc347.s
+
+# target to generate assembly for a file
+lc347.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc347.dir/build.make leetcode1/CMakeFiles/lc347.dir/lc347.cpp.s
+.PHONY : lc347.cpp.s
+
 lc349.o: lc349.cpp.o
 .PHONY : lc349.o
 
@@ -841,6 +1007,30 @@ lc349.s: lc349.cpp.s
 lc349.cpp.s:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc349.dir/build.make leetcode1/CMakeFiles/lc349.dir/lc349.cpp.s
 .PHONY : lc349.cpp.s
+
+lc42.o: lc42.cpp.o
+.PHONY : lc42.o
+
+# target to build an object file
+lc42.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc42.dir/build.make leetcode1/CMakeFiles/lc42.dir/lc42.cpp.o
+.PHONY : lc42.cpp.o
+
+lc42.i: lc42.cpp.i
+.PHONY : lc42.i
+
+# target to preprocess a source file
+lc42.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc42.dir/build.make leetcode1/CMakeFiles/lc42.dir/lc42.cpp.i
+.PHONY : lc42.cpp.i
+
+lc42.s: lc42.cpp.s
+.PHONY : lc42.s
+
+# target to generate assembly for a file
+lc42.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lc42.dir/build.make leetcode1/CMakeFiles/lc42.dir/lc42.cpp.s
+.PHONY : lc42.cpp.s
 
 lc454.o: lc454.cpp.o
 .PHONY : lc454.o
@@ -938,10 +1128,15 @@ help:
 	@echo "... lc15"
 	@echo "... lc151"
 	@echo "... lc18"
+	@echo "... lc20"
 	@echo "... lc242"
+	@echo "... lc347"
 	@echo "... lc349"
+	@echo "... lc42"
 	@echo "... lc454"
 	@echo "... lc541"
+	@echo "... lck225"
+	@echo "... lck232"
 	@echo "... lckmp28"
 	@echo "... lc01.o"
 	@echo "... lc01.i"
@@ -991,12 +1186,27 @@ help:
 	@echo "... lc18.o"
 	@echo "... lc18.i"
 	@echo "... lc18.s"
+	@echo "... lc20.o"
+	@echo "... lc20.i"
+	@echo "... lc20.s"
+	@echo "... lc225.o"
+	@echo "... lc225.i"
+	@echo "... lc225.s"
+	@echo "... lc232.o"
+	@echo "... lc232.i"
+	@echo "... lc232.s"
 	@echo "... lc242.o"
 	@echo "... lc242.i"
 	@echo "... lc242.s"
+	@echo "... lc347.o"
+	@echo "... lc347.i"
+	@echo "... lc347.s"
 	@echo "... lc349.o"
 	@echo "... lc349.i"
 	@echo "... lc349.s"
+	@echo "... lc42.o"
+	@echo "... lc42.i"
+	@echo "... lc42.s"
 	@echo "... lc454.o"
 	@echo "... lc454.i"
 	@echo "... lc454.s"

@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.23.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.23.2/CMakeSystem.cmake"
   "../leetcode1/CMakeLists.txt"
+  "../tree/CMakeLists.txt"
   "/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake"
   "/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake"
   "/Users/liangke/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
@@ -48,6 +49,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "leetcode1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tree/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -68,10 +70,16 @@ set(CMAKE_DEPEND_INFO_FILES
   "leetcode1/CMakeFiles/lc14.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc15.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc18.dir/DependInfo.cmake"
+  "leetcode1/CMakeFiles/lc20.dir/DependInfo.cmake"
+  "leetcode1/CMakeFiles/lc42.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lckmp28.dir/DependInfo.cmake"
+  "leetcode1/CMakeFiles/lck232.dir/DependInfo.cmake"
+  "leetcode1/CMakeFiles/lck225.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc151.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc242.dir/DependInfo.cmake"
+  "leetcode1/CMakeFiles/lc347.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc349.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc454.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc541.dir/DependInfo.cmake"
+  "tree/CMakeFiles/tree01.dir/DependInfo.cmake"
   )
