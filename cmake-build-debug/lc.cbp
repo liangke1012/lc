@@ -1267,6 +1267,138 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lc226">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/lc226" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/tree/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 lc226"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc226/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/lc226" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/tree/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 lc226/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc112">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/lc112" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/tree/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 lc112"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc112/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/lc112" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/tree/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 lc112/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc106">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/lc106" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/tree/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 lc106"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc106/fast">
+				<Option output="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/lc106" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/liangke/CLionProjects/lc/cmake-build-debug/tree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/liangke/CLionProjects/lc/tree/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 lc106/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/liangke/CLionProjects/lc/leetcode1/lc01.cpp">
 			<Option target="lc01"/>
@@ -1348,6 +1480,15 @@
 		</Unit>
 		<Unit filename="/Users/liangke/CLionProjects/lc/main.cpp">
 			<Option target="lc"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/tree/lc106.cpp">
+			<Option target="lc106"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/tree/lc112.cpp">
+			<Option target="lc112"/>
+		</Unit>
+		<Unit filename="/Users/liangke/CLionProjects/lc/tree/lc226.cpp">
+			<Option target="lc226"/>
 		</Unit>
 		<Unit filename="/Users/liangke/CLionProjects/lc/tree/tree01.cpp">
 			<Option target="tree01"/>

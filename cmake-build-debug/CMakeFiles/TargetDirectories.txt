@@ -30,5 +30,8 @@
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/edit_cache.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/leetcode1/CMakeFiles/rebuild_cache.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/tree/CMakeFiles/tree01.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/CMakeFiles/lc226.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/CMakeFiles/lc112.dir
+/Users/liangke/CLionProjects/lc/cmake-build-debug/tree/CMakeFiles/lc106.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/tree/CMakeFiles/edit_cache.dir
 /Users/liangke/CLionProjects/lc/cmake-build-debug/tree/CMakeFiles/rebuild_cache.dir
