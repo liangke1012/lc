@@ -519,6 +519,45 @@ lc106/fast:
 	$(MAKE) $(MAKESILENT) -f tree/CMakeFiles/lc106.dir/build.make tree/CMakeFiles/lc106.dir/build
 .PHONY : lc106/fast
 
+#=============================================================================
+# Target rules for targets named lc617
+
+# Build rule for target.
+lc617: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc617
+.PHONY : lc617
+
+# fast build rule for target.
+lc617/fast:
+	$(MAKE) $(MAKESILENT) -f tree/CMakeFiles/lc617.dir/build.make tree/CMakeFiles/lc617.dir/build
+.PHONY : lc617/fast
+
+#=============================================================================
+# Target rules for targets named lc700
+
+# Build rule for target.
+lc700: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc700
+.PHONY : lc700
+
+# fast build rule for target.
+lc700/fast:
+	$(MAKE) $(MAKESILENT) -f tree/CMakeFiles/lc700.dir/build.make tree/CMakeFiles/lc700.dir/build
+.PHONY : lc700/fast
+
+#=============================================================================
+# Target rules for targets named lc19
+
+# Build rule for target.
+lc19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc19
+.PHONY : lc19
+
+# fast build rule for target.
+lc19/fast:
+	$(MAKE) $(MAKESILENT) -f listNode/CMakeFiles/lc19.dir/build.make listNode/CMakeFiles/lc19.dir/build
+.PHONY : lc19/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -570,6 +609,7 @@ help:
 	@echo "... lc15"
 	@echo "... lc151"
 	@echo "... lc18"
+	@echo "... lc19"
 	@echo "... lc20"
 	@echo "... lc226"
 	@echo "... lc242"
@@ -578,6 +618,8 @@ help:
 	@echo "... lc42"
 	@echo "... lc454"
 	@echo "... lc541"
+	@echo "... lc617"
+	@echo "... lc700"
 	@echo "... lck225"
 	@echo "... lck232"
 	@echo "... lckmp28"
