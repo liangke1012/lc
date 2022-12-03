@@ -369,6 +369,20 @@ lckmp28/fast:
 .PHONY : lckmp28/fast
 
 # Convenience name for target.
+leetcode1/CMakeFiles/lru.dir/rule:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lru.dir/rule
+.PHONY : leetcode1/CMakeFiles/lru.dir/rule
+
+# Convenience name for target.
+lru: leetcode1/CMakeFiles/lru.dir/rule
+.PHONY : lru
+
+# fast build rule for target.
+lru/fast:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lru.dir/build.make leetcode1/CMakeFiles/lru.dir/build
+.PHONY : lru/fast
+
+# Convenience name for target.
 leetcode1/CMakeFiles/lck232.dir/rule:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leetcode1/CMakeFiles/lck232.dir/rule
 .PHONY : leetcode1/CMakeFiles/lck232.dir/rule
@@ -1104,6 +1118,30 @@ lckmp28.cpp.s:
 	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lckmp28.dir/build.make leetcode1/CMakeFiles/lckmp28.dir/lckmp28.cpp.s
 .PHONY : lckmp28.cpp.s
 
+lru.o: lru.cpp.o
+.PHONY : lru.o
+
+# target to build an object file
+lru.cpp.o:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lru.dir/build.make leetcode1/CMakeFiles/lru.dir/lru.cpp.o
+.PHONY : lru.cpp.o
+
+lru.i: lru.cpp.i
+.PHONY : lru.i
+
+# target to preprocess a source file
+lru.cpp.i:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lru.dir/build.make leetcode1/CMakeFiles/lru.dir/lru.cpp.i
+.PHONY : lru.cpp.i
+
+lru.s: lru.cpp.s
+.PHONY : lru.s
+
+# target to generate assembly for a file
+lru.cpp.s:
+	cd /Users/liangke/CLionProjects/lc/cmake-build-debug && $(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lru.dir/build.make leetcode1/CMakeFiles/lru.dir/lru.cpp.s
+.PHONY : lru.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1138,6 +1176,7 @@ help:
 	@echo "... lck225"
 	@echo "... lck232"
 	@echo "... lckmp28"
+	@echo "... lru"
 	@echo "... lc01.o"
 	@echo "... lc01.i"
 	@echo "... lc01.s"
@@ -1216,6 +1255,9 @@ help:
 	@echo "... lckmp28.o"
 	@echo "... lckmp28.i"
 	@echo "... lckmp28.s"
+	@echo "... lru.o"
+	@echo "... lru.i"
+	@echo "... lru.s"
 .PHONY : help
 
 

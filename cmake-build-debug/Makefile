@@ -364,6 +364,19 @@ lckmp28/fast:
 .PHONY : lckmp28/fast
 
 #=============================================================================
+# Target rules for targets named lru
+
+# Build rule for target.
+lru: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lru
+.PHONY : lru
+
+# fast build rule for target.
+lru/fast:
+	$(MAKE) $(MAKESILENT) -f leetcode1/CMakeFiles/lru.dir/build.make leetcode1/CMakeFiles/lru.dir/build
+.PHONY : lru/fast
+
+#=============================================================================
 # Target rules for targets named lck232
 
 # Build rule for target.
@@ -558,6 +571,19 @@ lc19/fast:
 	$(MAKE) $(MAKESILENT) -f listNode/CMakeFiles/lc19.dir/build.make listNode/CMakeFiles/lc19.dir/build
 .PHONY : lc19/fast
 
+#=============================================================================
+# Target rules for targets named lc77
+
+# Build rule for target.
+lc77: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lc77
+.PHONY : lc77
+
+# fast build rule for target.
+lc77/fast:
+	$(MAKE) $(MAKESILENT) -f backtrack/CMakeFiles/lc77.dir/build.make backtrack/CMakeFiles/lc77.dir/build
+.PHONY : lc77/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -620,9 +646,11 @@ help:
 	@echo "... lc541"
 	@echo "... lc617"
 	@echo "... lc700"
+	@echo "... lc77"
 	@echo "... lck225"
 	@echo "... lck232"
 	@echo "... lckmp28"
+	@echo "... lru"
 	@echo "... tree01"
 	@echo "... main.o"
 	@echo "... main.i"

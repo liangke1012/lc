@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../backtrack/CMakeLists.txt"
   "CMakeFiles/3.23.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.23.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.23.2/CMakeSystem.cmake"
@@ -52,6 +53,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "leetcode1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tree/CMakeFiles/CMakeDirectoryInformation.cmake"
   "listNode/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "backtrack/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -75,6 +77,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "leetcode1/CMakeFiles/lc20.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc42.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lckmp28.dir/DependInfo.cmake"
+  "leetcode1/CMakeFiles/lru.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lck232.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lck225.dir/DependInfo.cmake"
   "leetcode1/CMakeFiles/lc151.dir/DependInfo.cmake"
@@ -90,4 +93,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "tree/CMakeFiles/lc617.dir/DependInfo.cmake"
   "tree/CMakeFiles/lc700.dir/DependInfo.cmake"
   "listNode/CMakeFiles/lc19.dir/DependInfo.cmake"
+  "backtrack/CMakeFiles/lc77.dir/DependInfo.cmake"
   )
