@@ -1,0 +1,9 @@
+# ninja log v5
+11	357	6882006510211112	CMakeFiles/lc.dir/main.cpp.obj	25f5ef7416bb62e0
+1	181	6930293099913193	build.ninja	9290cc9548e7a893
+3	562	6882134559813157	leetcode1/CMakeFiles/lc01.dir/lc01.cpp.obj	b6f9bfa8b5049821
+563	705	6882134561220592	leetcode1/lc01.exe	700d404c419d8d53
+8	715	6926386016616423	leetcode1/CMakeFiles/lc01.dir/test1.cpp.obj	eb9e9cdaeffc7155
+0	589	6882006512524586	CMakeFiles/lc.dir/leetcode1/lc01.cpp.obj	f23220a003a8702c
+2	121	6882007510424053	lc.exe	d2f234ceab871cd7
+8	1656	6926385655163913	leetcode1/CMakeFiles/lc01.dir/test.cpp.obj	a16443e3573a826e
