@@ -7,4 +7,5 @@ ADD_SUBDIRECTORY(leetcode1)
 ADD_SUBDIRECTORY(tree)
 ADD_SUBDIRECTORY(listNode)
 ADD_SUBDIRECTORY(backtrack)
-add_executable(lc main.cpp)
+add_executable(lc main.cpp
+        string/maximumLength.cpp)
