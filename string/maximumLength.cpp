@@ -32,7 +32,7 @@ int maximumLength(std::string s)
         std::ranges::sort(a, std::greater());
         a.push_back(0);
         a.push_back(0); // 假设还有两个空串
-        ans = max({ans, a[0] - 2, min(a[0] - 1, a[1]), a[2]});
+        ans = std::max({ans, a[0] - 2, std::min(a[0] - 1, a[1]), a[2]});
     }
     return ans ? ans : -1;
 }
