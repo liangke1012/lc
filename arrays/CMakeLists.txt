@@ -1,3 +1,4 @@
 include_directories(.)
 
-add_executable(findMissingAndRepeatedValues findMissingAndRepeatedValues.cpp)
+add_executable(findMissingAndRepeatedValues findMissingAndRepeatedValues.cpp
+        distributeCandies.cpp)
