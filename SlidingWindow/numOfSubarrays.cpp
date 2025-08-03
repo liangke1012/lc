@@ -9,6 +9,7 @@ using namespace std;
 int numOfSubarrays(vector<int>& arr, int k, int threshold);
 vector<int> getAverages(vector<int>& nums, int k); // 2090. 半径为 k 的子数组平均值
 long long maxSum(vector<int>& nums, int m, int k); // 2841. 几乎唯一子数组的最大和
+long long maximumSubarraySum(vector<int>& nums, int k); // 2461. 长度为 K 子数组中的最大和
 
 int main() {
     vector<int> nums = {2,2,2,2,5,5,5,8};
@@ -27,6 +28,11 @@ int main() {
     k = 4;
     long long res2 = maxSum(nums, m, k);
     cout << res2 << endl;
+
+    nums = {1,5,4,2,9,9,9};
+    k = 3;
+    long long res3 = maximumSubarraySum(nums, k);
+    cout << res3 << endl;
     return 0;
 }
 
@@ -76,6 +82,31 @@ long long maxSum(vector<int>& nums, int m, int k) {
         }
         int out = nums[left];
         s -= out;
+        if (--cnt[out] == 0) {
+            cnt.erase(out);
+        }
+    }
+    return res;
+}
+
+long long maximumSubarraySum(vector<int>& nums, int k) {
+    long long res = 0;
+    long long sum = 0;
+    unordered_map<int, int> cnt;
+    for (int i = 0; i < nums.size(); ++i) {
+        sum += nums[i];
+        cnt[nums[i]]++;
+
+        int left = i - k + 1;
+        if (left < 0) {
+            continue;
+        }
+        if (cnt.size() == k) {
+            res = max(res, sum);
+        }
+
+        int out = nums[left];
+        sum -= out;
         if (--cnt[out] == 0) {
             cnt.erase(out);
         }
